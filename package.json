@@ -1,0 +1,51 @@
+{
+  "name": "@bigspinlab/shared-eslint",
+  "version": "0.0.1",
+  "description": "ESLint configuration preset",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": {
+    "name": "Bigspin Lab Developer",
+    "email": "info@bigspinlab.com",
+    "url": "https://bigspinlab.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bigspinlab/shared-eslint.git"
+  },
+  "devDependencies": {
+    "@bigspinlab/prettier-config": "*",
+    "@typescript-eslint/eslint-plugin": "6.20.0",
+    "@typescript-eslint/parser": "6.20.0",
+    "eslint": "*",
+    "eslint-plugin-functional": "*",
+    "eslint-plugin-jest": "*",
+    "eslint-plugin-jsdoc": "*",
+    "jest": "*",
+    "prettier": "*",
+    "prettier-plugin-organize-imports": "*",
+    "typescript": "*"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^27.6.3",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-testing-library": "^5.11.1",
+    "prettier": "^2.8.8",
+    "prettier-plugin-organize-imports": "^3.2.4"
+  },
+  "prettier": "@bigspinlab/prettier-config"
+}
