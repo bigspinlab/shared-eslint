@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:bigspinlab/shared-eslint.git"
+    "url": "https://github.com/bigspinlab/shared-eslint.git"
   },
   "engines": {
     "node": ">=18"
