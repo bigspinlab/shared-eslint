@@ -17,8 +17,11 @@
     "type": "git",
     "url": "git@github.com:bigspinlab/shared-eslint.git"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
-    "@bigspinlab/prettier-config": "*",
+    "@bigspinlab/shared-prettier": "*",
     "@typescript-eslint/eslint-plugin": "6.20.0",
     "@typescript-eslint/parser": "6.20.0",
     "eslint": "*",
