@@ -1,6 +1,6 @@
 {
   "name": "@bigspinlab/shared-eslint",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "ESLint configuration preset",
   "main": "index.js",
   "keywords": [
